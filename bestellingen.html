@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+    <link rel="stylesheet" href="./wireframe/stylesheet.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="sidebar">
+        <h2>InventoryPro</h2>
+
+        <ul>
+            <li><a href="./wireframe/dashboard.html">Dashboard</a></li>
+            <li><a href="./add-product.html">Products</a></li>
+            <li><a href="./bestellingen.html">Orders</a></li>
+        </ul>
+    </div>
+
+    <div class="main">
+
+        <div class="header">
+            <h1>Orders</h1>
+            <input class="search-box" type="text" placeholder="Search orders...">
+        </div>
+
+        <div class="order-table">
+
+            <table>
+
+                <tr>
+                    <th>Order ID</th>
+                    <th>Customer</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                </tr>
+
+                <tr>
+                    <td>#1001</td>
+                    <td>John Doe</td>
+                    <td>12-06-2026</td>
+                    <td><span class="status shipped">Shipped</span></td>
+                </tr>
+
+                <tr>
+                    <td>#1002</td>
+                    <td>Jane Smith</td>
+                    <td>13-06-2026</td>
+                    <td><span class="status processing">Processing</span></td>
+                </tr>
+
+                <tr>
+                    <td>#1003</td>
+                    <td>Robert Brown</td>
+                    <td>14-06-2026</td>
+                    <td><span class="status pending">Pending</span></td>
+                </tr>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
