@@ -14,9 +14,9 @@
         <h2>InventoryPro</h2>
 
         <ul>
-            <li><a href="./wireframe/dashboard.html">Dashboard</a></li>
-            <li><a href="./add-product.html">Products</a></li>
-            <li><a href="./bestellingen.html">Orders</a></li>
+            <li><a href="./dashboard.php">Dashboard</a></li>
+            <li><a href="./add-product.php">Products</a></li>
+            <li><a href="./bestellingen.php">Orders</a></li>
         </ul>
     </div>
 

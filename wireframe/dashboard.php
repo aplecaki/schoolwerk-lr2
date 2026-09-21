@@ -14,9 +14,9 @@
         <h2>InventoryPro</h2>
 
         <ul>
-            <li><a href="./dashboard.html">Dashboard</a></li>
-            <li><a href="../add-product.html">Products</a></li>
-            <li><a href="../bestellingen.html">Orders</a></li>
+            <li><a href="./dashboard.php">Dashboard</a></li>
+            <li><a href="./add-product.php">Products</a></li>
+            <li><a href="./bestellingen.php">Orders</a></li>
         </ul>
     </div>
 
@@ -32,7 +32,7 @@
             </div>
 
             <div class="card">
-                <h3>In Stock</h3>
+                <h3>Total KG</h3>
                 <p>112</p>
             </div>
 
@@ -54,20 +54,20 @@
                 </tr>
 
                 <tr>
-                    <td>Keyboard</td>
-                    <td>24</td>
+                    <td></td>
+                    <td></td>
                     <td>Available</td>
                 </tr>
 
                 <tr>
-                    <td>Mouse</td>
-                    <td>6</td>
+                    <td></td>
+                    <td></td>
                     <td>Low Stock</td>
                 </tr>
 
                 <tr>
-                    <td>Monitor</td>
-                    <td>18</td>
+                    <td></td>
+                    <td></td>
                     <td>Available</td>
                 </tr>
             </table>
